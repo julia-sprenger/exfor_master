@@ -419,10 +419,10 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: reference_type
+    id: institute
     attributes:
-      label: Reference type
-      description: What type is your reference?
+      label: Institute
+      description: Which institute produced the data?
       # TODO: This list of choices should be frequenly automatically updated from
       # https://github.com/IAEA-NDS/exfor_dictionary/blob/main/src/exfor_dictionary/latest.json or from
       # latest dicts files here: https://www-nds.iaea.org/public/exfor/backup/
