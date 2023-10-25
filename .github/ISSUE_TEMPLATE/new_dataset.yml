@@ -45,6 +45,16 @@ body:
         - Abstract of conference
         - Abstract of journal
         - Book
+        - Conference
+        - Evaluated data library
+        - Experimental data library
+        - Journal
+        - Preprint
+        - Private Communication (not recommended)
+        - Progress report
+        - Report other than progress report
+        - Report containing conference proc
+        - Thesis or dissertation
       default: 7
     validations:
       required: false
