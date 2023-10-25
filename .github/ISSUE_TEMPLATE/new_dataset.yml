@@ -21,7 +21,7 @@ body:
       description: |
         The DOI reference of the data publication. When providing a DOI, subsequent fields
         (author, reference, year) do not need to be filled, but will be extracted automatically.
-      placeholder: example: 10.1103/PhysRevC.19.2127
+      placeholder: example 10.1103/PhysRevC.19.2127
     validations:
       required: false
   - type: input
@@ -30,7 +30,7 @@ body:
       label: Authors
       description: |
         Provide the author names in the following format: A.Smith,B.Brown,C.Johnson
-      placeholder: example: 10.1103/PhysRevC.19.2127
+      placeholder: example 10.1103/PhysRevC.19.2127
     validations:
       required: false
   - type: dropdown
@@ -503,7 +503,7 @@ body:
     attributes:
       label: Volume
       description: The volume number of the publication
-      placeholder: example: 10
+      placeholder: example 10
     validations:
       required: false
   - type: input
@@ -511,7 +511,7 @@ body:
     attributes:
       label: Paper number
       description: The number of the paper in the in the volume
-      placeholder: example: 3
+      placeholder: example 3
     validations:
       required: false
   - type: input
@@ -519,7 +519,7 @@ body:
     attributes:
       label: Page number
       description: The page number on which the article begins
-      placeholder: example: 157
+      placeholder: example 157
     validations:
       required: false
   - type: input
@@ -527,7 +527,7 @@ body:
     attributes:
       label: Year
       description: The year of reference publication
-      placeholder: example: 2019
+      placeholder: example 2019
     validations:
       required: false
   - type: dropdown
