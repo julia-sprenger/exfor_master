@@ -4,6 +4,7 @@ EXFOR_ALL_URL = "https://nds.iaea.org/exfor-master/backup/"
 # GIT_REPO_PATH = "/Users/okumuras/Documents/nucleardata/EXFOR/exfor_master_soku/"  # private repo
 GIT_REPO_PATH = "./"  # here
 GIT_REPO_URL = "https://api.github.com/repos/IAEA-NDS/exfor_master/releases"
+GIT_EXFOR_DICT_URL = "https://api.github.com/repos/IAEA-NDS/exfor_dictionary"
 
 EXFOR_ALL_TEMP = "exforall_tmp/"  # do not remove for rsync "/"
 EXFOR_ALL_PATH = GIT_REPO_PATH + "exforall/"

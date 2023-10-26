@@ -150,7 +150,8 @@ ENV/
 env.bak/
 venv.bak/
 
-
+# VS Code
+.vscode/
 
 
 # backup files
@@ -166,3 +167,5 @@ Dict*
 Errors*
 exforall_py/
 gitconf.py
+latest_dicton.json
+
